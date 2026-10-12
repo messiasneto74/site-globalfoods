@@ -126,7 +126,7 @@ Um milestone só deve ser considerado concluído quando seus critérios de aceit
 
 | ID | Prioridade | Issue | Critério de aceite |
 |---|---:|---|---|
-| GF-001 | P0 | Formalizar públicos, jornada principal e escopo do MVP | Os três públicos, a jornada do consumidor e os limites do MVP estão documentados e aprovados |
+| GF-001 | P0 | Documentar e aprovar o escopo do MVP | Os três públicos, a jornada do consumidor, as chamadas de ação comerciais e os limites do MVP estão documentados e aprovados |
 | GF-002 | P0 | Definir públicos prioritários: consumidor, parceiro, distribuidor ou varejista | Cada público possui objetivo e caminho no site |
 | GF-003 | P0 | Definir a ação principal do visitante | Existe uma chamada principal definida para a página inicial |
 | GF-004 | P0 | Listar os produtos que estarão disponíveis no MVP | O catálogo inicial está fechado e validado |
