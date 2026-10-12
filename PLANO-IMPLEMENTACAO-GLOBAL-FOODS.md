@@ -24,6 +24,12 @@ Este documento é o backlog de referência para organizar o desenvolvimento em m
 
 ## 3. Escopo do MVP
 
+A Global Foods comercializa seus produtos para três públicos:
+
+- **Consumidor:** localizar o produto no supermercado mais próximo;
+- **Supermercado:** conhecer os produtos e entrar no fluxo comercial da Global Foods;
+- **Food service:** conhecer os produtos e entrar no fluxo comercial da Global Foods.
+
 O visitante deverá conseguir:
 
 1. entender o que é a Global Foods;
@@ -33,6 +39,13 @@ O visitante deverá conseguir:
 5. saber se o telefone também atende pelo WhatsApp;
 6. conversar com o Agente de IA para obter a mesma informação;
 7. entrar em contato com a Global Foods ou demonstrar interesse como parceiro.
+
+### 3.1 Fora do MVP
+
+- compra direta pelo site;
+- checkout ou pagamento online;
+- controle de estoque em tempo real;
+- portal completo de pedidos para supermercados ou food service.
 
 ## 4. Regras do produto
 
@@ -113,7 +126,7 @@ Um milestone só deve ser considerado concluído quando seus critérios de aceit
 
 | ID | Prioridade | Issue | Critério de aceite |
 |---|---:|---|---|
-| GF-001 | P0 | Definir se o produto final será institucional, comercial e localizador | O escopo do MVP está escrito e aprovado |
+| GF-001 | P0 | Formalizar públicos, jornada principal e escopo do MVP | Os três públicos, a jornada do consumidor e os limites do MVP estão documentados e aprovados |
 | GF-002 | P0 | Definir públicos prioritários: consumidor, parceiro, distribuidor ou varejista | Cada público possui objetivo e caminho no site |
 | GF-003 | P0 | Definir a ação principal do visitante | Existe uma chamada principal definida para a página inicial |
 | GF-004 | P0 | Listar os produtos que estarão disponíveis no MVP | O catálogo inicial está fechado e validado |
