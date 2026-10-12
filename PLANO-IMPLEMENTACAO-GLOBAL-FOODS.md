@@ -189,8 +189,17 @@ Um milestone só deve ser considerado concluído quando seus critérios de aceit
 | QA-004 | P1 | Revisar acessibilidade básica e legibilidade | Contraste, teclado, textos e mensagens estão adequados |
 | QA-005 | P1 | Configurar SEO, título, descrição e compartilhamento | O site possui metadados básicos e prévia correta |
 | QA-006 | P0 | Configurar domínio e acesso público quando aprovado | O endereço definitivo abre o site publicado |
-| QA-007 | P1 | Configurar métricas essenciais | Visitas, buscas e contatos podem ser acompanhados respeitando a privacidade |
+| QA-007 | P1 | Integrar Google Analytics 4 | O site registra visitas e eventos essenciais respeitando consentimento e privacidade |
 | QA-008 | P1 | Documentar atualização do banco e operação do agente | Existe um procedimento para manter dados e respostas atualizados |
+
+### Analytics e mensuração
+
+| ID | Prioridade | Issue | Critério de aceite |
+|---|---:|---|---|
+| ANL-001 | P1 | Criar e configurar a propriedade do Google Analytics 4 | O site recebe o Measurement ID por configuração segura e registra page views |
+| ANL-002 | P1 | Medir buscas do localizador | O sistema registra produto consultado, resultado encontrado e ausência de resultado sem armazenar dados pessoais desnecessários |
+| ANL-003 | P1 | Medir ações de conversão | Cliques em WhatsApp, contatos, interesse de parceiro e interações principais do agente podem ser analisados |
+| ANL-004 | P1 | Definir consentimento e política de mensuração | O carregamento do Analytics e dos eventos respeita a política de privacidade e o consentimento aplicável |
 
 ## 8. Critérios de aceite do MVP
 
@@ -202,6 +211,7 @@ O MVP estará pronto quando:
 - o Agente de IA fizer a mesma consulta sem inventar dados;
 - houver tratamento para produto inexistente, indisponível e sem informação;
 - os responsáveis conseguirem atualizar produtos, supermercados e disponibilidade;
+- o Google Analytics 4 registrar as visitas, buscas e conversões aprovadas;
 - os fluxos principais funcionarem em celular e computador;
 - privacidade, contatos, domínio e publicação estiverem validados.
 
